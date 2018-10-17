@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Giftastic</title>
+    <link rel="stylesheet" href="./assets/stylesheets/reset.css">
     <link rel="stylesheet" href="./assets/stylesheets/main.css">
 </head>
 <body>
@@ -14,10 +15,21 @@
     <div class="container">
         <div id="gif-holder"></div>
 
-        <div class="new-button-container">
-            <h3>Add an animal</h3>
-            <input type="text" id="new-animal-input">
-            <button id="new-animal-button">Submit</button>
+        <div class="sidebar">
+
+            <div class="new-button-container">
+                <h3>Add an animal</h3>
+                <input type="text" id="new-animal-input">
+                <button id="new-animal-button">Submit</button>
+            </div>
+    
+            <div class="favorites-container">
+                <h3>Favorites</h3>
+                <ul id="favorites-list">
+    
+                </ul>
+            </div>
+
         </div>
 
     </div>
